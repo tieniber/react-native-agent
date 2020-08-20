@@ -1,0 +1,87 @@
+{
+  "_from": "@appdynamics/react-native-agent@^20.7.0",
+  "_id": "@appdynamics/react-native-agent@20.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-yDxXjKwWciUl2atlyWu3C0ZKocf9KQe8WVIRJN9bPryPSgliY/9ibPFYTwN6FEpWwri9afmsKLdvT4LQVap7Gg==",
+  "_location": "/@appdynamics/react-native-agent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@appdynamics/react-native-agent@^20.7.0",
+    "name": "@appdynamics/react-native-agent",
+    "escapedName": "@appdynamics%2freact-native-agent",
+    "scope": "@appdynamics",
+    "rawSpec": "^20.7.0",
+    "saveSpec": null,
+    "fetchSpec": "^20.7.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@appdynamics/react-native-agent/-/react-native-agent-20.7.0.tgz",
+  "_shasum": "c8272b6e2ec435f4ba923f160362a53a9aebad56",
+  "_spec": "@appdynamics/react-native-agent@^20.7.0",
+  "_where": "/Users/Eric/Downloads/eriemobileapp-devIosAppDynamics",
+  "bin": {
+    "appd-react-native": "bin/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/appdynamics/react-native-agent/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "1.9.3"
+  },
+  "deprecated": false,
+  "description": "Native instrumentation of iOS and android apps built with react-native.",
+  "devDependencies": {
+    "@types/inquirer": "^0.0.43",
+    "@types/react-native": "^0.57.7",
+    "@types/shelljs": "^0.8.1",
+    "inquirer": "^6.2.1",
+    "madge": "^3.4.4",
+    "react-native": "0.57.7",
+    "shelljs": "^0.8.3",
+    "ts-node": "^7.0.1",
+    "tslint": "5.11.0",
+    "tslint-language-service": "0.9.9",
+    "typedoc": "^0.13.0",
+    "typescript": "3.1.3",
+    "typestrict": "1.0.1"
+  },
+  "files": [
+    "android/build.gradle",
+    "android/adeum.gradle",
+    "./docs",
+    "./bin",
+    "./android/src",
+    "./build/js",
+    "./build/iosagent",
+    "./ios",
+    "./LICENSE",
+    "./NOTICE.txt"
+  ],
+  "homepage": "https://github.com/appdynamics/react-native-agent",
+  "keywords": [
+    "react-native",
+    "appdynamics",
+    "application monitoring"
+  ],
+  "license": "Apache-2.0",
+  "main": "build/js/plugin/index.js",
+  "name": "@appdynamics/react-native-agent",
+  "peerDependencies": {
+    "react-native": "0.57.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "reminder": "when updating this version number, make sure to update it in the call to start() in Instrumentation.ts too",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appdynamics/react-native-agent.git"
+  },
+  "typings": "build/js/plugin/index.d.ts",
+  "version": "20.7.0"
+}
