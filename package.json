@@ -54,10 +54,6 @@
     "access": "public"
   },
   "reminder": "when updating this version number, make sure to update it in the call to start() in Instrumentation.ts too",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/appdynamics/react-native-agent.git"
-  },
   "typings": "build/js/plugin/index.d.ts",
   "version": "20.7.0"
 }
